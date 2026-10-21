@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Rastreadores de IA liberados (GEO/AEO)
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+
+Sitemap: https://www.marinafisio.com.br/sitemap.xml

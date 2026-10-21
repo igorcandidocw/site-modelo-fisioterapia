@@ -1,0 +1,17 @@
+# Dra. Marina Albuquerque · Fisioterapia em Barra do Garças (MT)
+
+> Site modelo com personagem fictícia. Fisioterapia ortopédica, esportiva, reabilitação pós-operatória e pilates clínico, com atendimento individual e domiciliar.
+
+- Quem: Dra. Marina Albuquerque, fisioterapeuta (CREFITO-9 000000-F), mais de 10 anos de experiência, especialista em traumato-ortopedia e desportiva.
+- O que trata: dor lombar e cervical, hérnia de disco, tendinites, bursites, lesões do esporte, reabilitação pós-operatória (LCA, menisco, prótese de joelho e quadril, ombro).
+- Também oferece: pilates clínico, terapia manual, liberação miofascial, dry needling e avaliação postural.
+- Onde: Av. Exemplo, 1234, sala 5, Centro, Barra do Garças (MT). Atendimento domiciliar em Barra do Garças, Pontal do Araguaia e Aragarças (GO).
+- Como: sessões 100% individuais de 50 a 60 minutos, plano de tratamento por escrito e exercícios para casa por vídeo.
+- Horário: segunda a sexta, 7h às 20h; sábado, 8h às 12h.
+- Agendamento: pelo WhatsApp (66) 90000-0000.
+
+## Links
+- [Página inicial](https://www.marinafisio.com.br/)
+- [Tratamentos](https://www.marinafisio.com.br/#tratamentos)
+- [Perguntas frequentes](https://www.marinafisio.com.br/#duvidas)
+- [Política de Privacidade (LGPD)](https://www.marinafisio.com.br/politica-de-privacidade.html)
