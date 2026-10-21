@@ -782,3 +782,42 @@ body:has(.cookie-banner.is-visible) .wa-float { bottom: 200px; }
   .legal-grid { grid-template-columns: 260px 1fr; gap: 64px; align-items: start; }
   .legal-toc { position: sticky; top: 96px; }
 }
+
+/* ---------- 24. Aviso de site modelo ---------- */
+body.modelo-open { overflow: hidden; }
+.modelo-dialog {
+  position: fixed; inset: 0; z-index: 170;
+  background: rgba(38, 54, 45, .6);
+  display: grid; place-items: center; padding: 16px;
+  animation: modelo-fade .3s var(--ease);
+}
+.modelo-dialog[hidden] { display: none; }
+.modelo-panel {
+  position: relative; width: 100%; max-width: 480px; max-height: calc(100vh - 32px); overflow-y: auto;
+  background: #fff; border-radius: var(--radius-card); padding: 32px 24px 24px;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, .25); text-align: center;
+  animation: modelo-up .35s var(--ease); outline: none;
+}
+.modelo-close {
+  position: absolute; top: 10px; right: 10px; width: 44px; height: 44px;
+  display: grid; place-items: center; border: 0; border-radius: 50%;
+  background: transparent; color: var(--texto-2); cursor: pointer;
+}
+.modelo-close:hover { background: var(--areia-50); color: var(--grafite); }
+.modelo-tag {
+  display: inline-block; margin-bottom: 14px; padding: 6px 14px; border-radius: 999px;
+  background: var(--areia-200); color: var(--terracota);
+  font-size: 13px; font-weight: 600; letter-spacing: .02em;
+}
+.modelo-panel h2 { font-size: clamp(1.5rem, 4vw, 1.875rem); margin-bottom: 12px; }
+.modelo-panel p { color: var(--texto-2); font-size: 15.5px; line-height: 1.6; }
+.modelo-panel p strong { color: var(--grafite); }
+.modelo-panel .modelo-cta-text { color: var(--grafite); font-weight: 600; margin: 20px 0 16px; }
+.modelo-actions { display: grid; gap: 10px; }
+.modelo-actions .btn { width: 100%; padding-inline: 18px; }
+.btn-whatsapp { background: var(--whatsapp); color: #fff; }
+.btn-whatsapp:hover { background: #188C46; color: #fff; box-shadow: 0 10px 24px rgba(31, 168, 85, .3); }
+@media (min-width: 640px) { .modelo-panel { padding: 40px 36px 32px; } }
+@keyframes modelo-fade { from { opacity: 0; } }
+@keyframes modelo-up { from { opacity: 0; transform: translateY(16px); } }
+@media (prefers-reduced-motion: reduce) { .modelo-dialog, .modelo-panel { animation: none; } }
